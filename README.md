@@ -11,21 +11,15 @@ https://www.balldontlie.io
     - [ ] Full name - first and last name of a player
     - [ ] Team - team that player represents
     - [ ] Votes - number of votes for a certain NBA player
-- [ ] Entity should have at least 5 custom attributes
-    - [ ] Each attribute should have a type defined: number, string, ISO 8601 date string, boolean, object, array or other
-    - [ ] Each attribute should have restrictions defined: list of constants, or number range, or string length, or string format, or object schema, or array schema or other. For example, you can use `joi` language to define restrictions: https://github.com/hapijs/joi/blob/v13.1.2/API.md
     
 ## Entity "Vote"
 - [ ] Defines a single vote for a NBA player.
-- [ ] 4 mandatory attributes:
+- [ ] 3 mandatory attributes:
     - [ ] ID - a identifying number of a team in our system.
     - [ ] Username - name of a vot
     - [ ] PlayerID - id of an active NBA player
-    - [ ] Comment - 
-- [ ] Entity should have at least 5 custom attributes
-    - [ ] Each attribute should have a type defined: number, string, ISO 8601 date string, boolean, object, array or other
-    - [ ] Each attribute should have restrictions defined: list of constants, or number range, or string length, or string format, or object schema, or array schema or other. For example, you can use `joi` language to define restrictions: https://github.com/hapijs/joi/blob/v13.1.2/API.md
-    
+- [ ] 1 Optional attribute:
+    - [ ] Comment - comment of a user
     
 ## API definition
 - [ ] "Balldontlie API" is going to be used
