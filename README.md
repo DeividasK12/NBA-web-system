@@ -31,8 +31,8 @@ https://www.balldontlie.io
     - [ ] A method that updates vote unit. 
 - [ ] Each method should have HTTP method defined
 - [ ] Each method should have URI defined (use {id} as entity ID placeholder)
-- [ ] Should return all 4xx errors in unified format. Define format using `joi` language
-- [ ] Should return all 5xx errors in unified format. Define format using `joi` language
+- [ ] Should return 4xx errors
+- [ ] Should return 5xx errors. 
 
 ## UI definition
 Main page example
