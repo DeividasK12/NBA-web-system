@@ -25,10 +25,11 @@ https://www.balldontlie.io
 - [ ] "Balldontlie API" is going to be used
 - [ ] Voting going to be created with PUT, POST, DELETE methods.
 - [ ] API will have 4 methods:
-    - [ ] A method to return player by ID.  i.e. GET https://www.balldontlie.io/api/v1/players/<ID>
-    - [ ] A method to return multiple players (Array) by ID. i.e. https://www.balldontlie.io/api/v1/players
-    - [ ] A method that deletes vote unit
-    - [ ] A method that updates vote unit. 
+    - [ ] A GET method to return player by ID.  i.e. GET https://www.balldontlie.io/api/v1/players/<ID>
+    - [ ] A GET method to return multiple Teams (Array) GET https://www.balldontlie.io/api/v1/teams
+    - [ ] A POST method to create vote. POST localhost:3000/postVote
+    - [ ] A DELETE method that deletes vote unit DELETE localhost:3000/deleteVote
+    - [ ] A PUT method that updates vote unit. PUT localhost:3000/updateVote
 - [ ] Each method should have HTTP method defined
 - [ ] Each method should have URI defined (use {id} as entity ID placeholder)
 - [ ] Should return 4xx errors
